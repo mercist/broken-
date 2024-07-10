@@ -1,17 +1,100 @@
+print("lol")
+print("lol")
+print("lol")
+print("lol")
+print("lol")
+print("lol")
+print("lol")
+print("lol")
+print("lol")
+print("loading 1%")
+print("loading 2%")
+print("loading 5%")
+print("loading 14%")
+print("loading 27%")
+print("loading 42%")
+print("loading 64%")
+print("loading 65%")
+print("loading 65%")
+print("loading 67%")
+print("loading 75%")
+print("loading 89%")
+print("loading 100%")
+
+
+print(" Nice anticheat Rvvz ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "CRIMEONALATY SIGMA HUBBBB   (and other games)",
-    LoadingTitle = "crimeWithNaloty SIGMAAAA hub",
-    LoadingSubtitle = "by Merc",
+    Name = "Mercism hub",
+    LoadingTitle = "Nice game rvvBoy",
+    LoadingSubtitle = "by Mercist",
     ConfigurationSaving = {
        Enabled = false,
        FolderName = nil, -- Create a custom folder for your hub/game
-       FileName = "sigma"
+       FileName = "nah"
     },
     Discord = {
-       Enabled = false,
-       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg 
+       Enabled = true,
+       Invite = "If you need anything message ''mercist_'' on discord", -- The Discord invite code, do not include discord.gg 
        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     },
     KeySystem = true, -- Set this to true to use our key system
@@ -22,7 +105,7 @@ local Window = Rayfield:CreateWindow({
        FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
        SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = {"Update V.4"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+       Key = {"Tweaked"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
     }
  })
 
@@ -32,6 +115,21 @@ local Window = Rayfield:CreateWindow({
  Rayfield:Notify({
     Title = "you fricking zigger u really wanna hack on my script? fine.",
     Content = "we are sigma      theres more then crim too ig smh",
+    Duration = 6.5,
+    Image = nil,
+    Actions = { -- Notification Buttons
+       Ignore = {
+          Name = "frfr my og gangster",
+          Callback = function()
+          print("you fucking <gfdshdzf")
+       end
+    },
+ },
+ })
+
+Rayfield:Notify({
+    Title = "If you use FEMBOYCRIMHUB",
+    Content = "if you use it end dont its a scam and the creator is a skid",
     Duration = 6.5,
     Image = nil,
     Actions = { -- Notification Buttons
