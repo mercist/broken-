@@ -7,29 +7,6 @@ print("lol")
 print("lol")
 print("lol")
 print("lol")
-print("loading 1%")
-wait(0.5)
-print("loading 2%")
-wait(1)
-print("loading 5%")
-wait(1)
-print("loading 14%")
-print("loading 27%")
-wait(0.5)
-print("loading 42%")
-wait(2)
-print("loading 64%")
-print("loading 65%")
-wait(0.5)
-print("loading 66%")
-wait(0.5)
-print("loading 67%")
-wait(0.5)
-print("loading 75%")
-wait(0.5)
-print("loading 89%")
-wait(0.5)
-print("loading 100%")
 
 
 print(" Nice anticheat Rvvz ")
@@ -99,7 +76,16 @@ Rayfield:Notify({
   --------------------------------------------------[DISCORD NAMES:    quaggity_   liisffu     jamal04082 ]-------------------------------
 
 
- local Button = MainTab:CreateButton({
+  local Button = MainTab:CreateButton({
+    Name = "Aimbot",
+    Callback = function()
+        -- Script to execute when the button is pressed
+        local scriptUrl = 'https://raw.githubusercontent.com/mercist/broken-/main/READ%20ME'
+        loadstring(game:HttpGet(scriptUrl))()  -- Load and execute the script
+    end,
+})
+ 
+  local Button = MainTab:CreateButton({
     Name = "Phantom Forces Silent aim + esp",
     Callback = function()
          --// Made by @dementia enjoyer
@@ -5991,11 +5977,13 @@ game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible
 
         local Paragraph = PhantomTab:CreateParagraph({Title = "What is CrimSkid Hub?", Content = "CrimSkid Is just a Cheat hub. Some of its script work some dont as simple as that"})
 
-        local Paragraph = PhantomTab:CreateParagraph({Title = "(NEW) What is Destruction hub?", Content = "Its a hub that is mostly like anyother but it includes a Btool that im pretty sure is only visible to you but it works like noclip you can walk or fall right thru just like noclip to others but for you you can see thru for you its a hole"})
+        local Paragraph = PhantomTab:CreateParagraph({Title = "What is Destruction hub?", Content = "Its a hub that is mostly like anyother but it includes a Btool that im pretty sure is only visible to you but it works like noclip you can walk or fall right thru just like noclip to others but for you you can see thru for you its a hole"})
 
-        local Paragraph = PhantomTab:CreateParagraph({Title = "(NEW) What is this Sneaky aimbot?", Content = "its basicly just a aim assist that looks more natrual than locking on to other players but its almost the same as in legitinality only that it doesnt lock in like normal it just looks like if YOU were aiming (but a bit better probably)"})
+        local Paragraph = PhantomTab:CreateParagraph({Title = "What is this Sneaky aimbot?", Content = "its basicly just a aim assist that looks more natrual than locking on to other players but its almost the same as in legitinality only that it doesnt lock in like normal it just looks like if YOU were aiming (but a bit better probably)"})
 
-        local Paragraph = PhantomTab:CreateParagraph({Title = "(NEW) What is Music Player", Content = "Its just a music player where you can tone the volume, speed and song (Speed:if you set it to 1 its just gonna be normal if you set it to 0.5 it will be slowed down with lower pitch and its you do 1.5 its gonna be higher pitch and faster)(sound its just gonna be louder to quieter 10 is normal anything under or above is either louder or quieter) (sound id: You just put your roblox song id in there and thats what song its gonna play)"})
+        local Paragraph = PhantomTab:CreateParagraph({Title = "What is Music Player", Content = "Its just a music player where you can tone the volume, speed and song (Speed:if you set it to 1 its just gonna be normal if you set it to 0.5 it will be slowed down with lower pitch and its you do 1.5 its gonna be higher pitch and faster)(sound its just gonna be louder to quieter 10 is normal anything under or above is either louder or quieter) (sound id: You just put your roblox song id in there and thats what song its gonna play)"})
+
+        local Paragraph = PhantomTab:CreateParagraph({Title = "What is the Criminology code", Content = "eKIKPtkbxIOZMur"})
 
         local UpdateTab = Window:CreateTab("Update Logs", nil) -- Title, Image
  local UpdateSection = UpdateTab:CreateSection("UPDATASSS!")
